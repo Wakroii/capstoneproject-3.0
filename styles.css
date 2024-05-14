@@ -1,0 +1,309 @@
+
+
+body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+
+.judul{ 
+      
+        background-color: #0C0C0C;
+        color: #F2613F;
+        
+}
+
+.imga{
+  border: 5px solid blue;
+}
+
+#hobby, #contact{
+
+  color:#F2613F;
+  text-decoration: none;
+}
+
+
+h3 {
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+ 
+}
+
+
+p, li {
+
+font-family: "ABeeZee", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+}
+
+
+h4{
+
+  color: red;
+  font-family: "Trirong", serif;
+  font-weight: 500;
+  font-style: normal
+
+}
+
+
+
+
+
+.education p {
+
+color: red;
+
+}
+
+.lain{
+
+  color:black;
+
+}
+
+.pdl p{
+
+  color: red;
+
+}
+
+.true #pkr{
+
+  color:red;
+}
+
+.ktr h4{
+
+  color: red;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+footer{
+
+  color: blue;
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal
+  
+}
+
+.poto{
+position: relative;
+display: inline-block;
+
+}
+
+.flag {
+
+position: absolute;
+background-color: red;
+width: 600px;
+border: 5px solid black;
+left: 120%; 
+bottom :6px;
+height: 200px;
+margin: 0;
+padding: 0;
+
+}
+.flag > div{
+
+  position: relative;
+  background-color: white;
+  
+  width: 100%;
+  height: 50%;
+  top: 50%;
+  
+
+}
+
+@media (max-width:680px){
+
+  .flag {
+
+    
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    border: 5px solid black;
+    left: 120%; 
+    bottom :6px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.flag > div{
+
+  position: relative;
+  background-color: white;
+  
+  width: 100%;
+  height: 50%;
+  top: 50%;
+
+
+p {
+
+  text-align: justify;
+}
+  
+
+}
+}
+
+.navbar{
+
+  display: flex;
+  gap: 10px;
+  
+}
+
+.navbar > *{
+
+flex-basis: 100px;
+border: 2px solid black;
+border-radius: 5px;
+ 
+
+}
+
+button {
+
+  border-style: none;
+  width: 10px;
+
+}
+
+/* landing css */
+
+.landbody{
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  border: 5px solid green;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  
+  
+
+}
+
+.landcontainer{
+
+  
+  display: grid;
+  background-color: #000;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px ;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  margin: auto;
+  padding: auto;
+  
+ 
+ 
+  
+}
+
+
+
+
+.a{
+
+  background-color: #A91D3A;
+  grid-area: 1 / 1 / 4 / 7;
+  
+
+}
+
+.b{
+  background-color: #C73659;
+  grid-area: 4 / 1 / 7 / 4 ;
+  text-align: center;
+  padding: 70px 0;
+  color: #EEEEEE;
+  
+}
+
+#hobby1{
+  color: #C73659;
+  text-decoration: none;
+}
+
+.c{
+ 
+  background-color: #EEEEEE;
+  grid-area: 4 / 4 / 7 / 7 ;
+  text-align: center;
+  padding: 70px 0;
+  
+
+}
+
+#contact1{
+  color:  #EEEEEE;
+  text-decoration: none;
+}
+
+.item a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+/* .imgb{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: 100px;
+  border: 5px solid blue;
+  
+  
+ 
+} */
+
+.landjud{
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  color: blue;
+  font-size: large;
+  color: yellow;
+}
+
+
+.rahasia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  
+}
